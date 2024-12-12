@@ -1,0 +1,144 @@
+* {
+   box-sizing: border-box;
+   color: white;
+   transition: all .5s;
+}
+
+a,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.nav-link,
+.navbar-brand {
+   color: white;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+   color: white;
+}
+
+nav {
+   height: 138px;
+   color: white;
+}
+
+.nav-item:hover a {
+   color: #009ad8;
+}
+
+.nav-item a {
+   padding: 0;
+}
+
+.nav-item:hover {
+   border: 2px solid #009ad8;
+}
+
+.nav-item {
+   padding: 5px 20px;
+   border: 2px solid #212529;
+   border-radius: 30px;
+   font-size: 14px;
+   font-family: "Roboto", "Open Sans", sans-serif;
+   margin: 0 5px;
+}
+
+.body {
+   background-image: url("../images/banner.png");
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.find-location {
+   margin: 70px 0;
+}
+
+.find-location1 {
+   border-radius: 30px;
+   width: 100%;
+   height: 56px;
+   border: 0;
+   background-color: #212529;
+   color: white;
+}
+
+.form-control:focus {
+   color: white;
+   background-color: #212529;
+}
+
+.find-location1::placeholder {
+   color: white;
+   opacity: 1;
+}
+
+#submit {
+   top: 5px;
+   right: 5px;
+   width: 107px;
+   height: 46px;
+   border-radius: 30px;
+   border: none;
+   background-color: #009ad8;
+}
+
+.today,
+.forecast {
+   width: 33%;
+   text-align: center;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+
+#current .degree {
+   font-size: 80px;
+   font-weight: bold;
+}
+
+
+.forecast-container {
+   border-radius: 10px;
+   background-color: #323544;
+
+}
+
+.forecast-container {
+   display: flex;
+   padding: 10px 0;
+}
+
+footer {
+   padding: 20px 0;
+}
+
+.container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.site-footer .subscribe-form input[type="text"] {
+   padding: 20px 100px 20px 20px;
+   background: #1e202b;
+   width: 100%;
+   color: white;
+   border-radius: 65px;
+   border: transparent;
+   
+}
+
+.site-footer .subscribe-form input[type="submit"] {
+   position: absolute;
+   right: 5px;
+   top: 5px;
+   bottom: 5px;
+   border: none;
+   background: #009ad8;
+   padding: 10px 20px;
+   border-radius: 30px;
+   color: white;
+}

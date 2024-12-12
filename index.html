@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>weather</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body class="bg-dark">
+        <div class=" container ">
+                <nav class="navbar  navbar-expand-lg ">
+                        <div class="container-fluid d-flex justify-content-between">
+                                <a class="navbar-brand d-flex align-items-center" href="#">
+                                        <span> <img class="pe-2" src="images/logo.png" alt=""></span>
+                                        <span>
+                                                <p class="p-0 m-0">weather</p>
+                                                <p class="p-0 m-0 fs-6">tagline goes here</p>
+                                        </span>
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                                        <ul class="navbar-nav  mb-2 mb-lg-0">
+                                                <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="#">News</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="#">Live cameras</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="#">Photos</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="#">Contact</a>
+                                                </li>
+                                        </ul>
+
+
+                                </div>
+                        </div>
+                </nav>
+        </div>
+
+        <div class="  body container-fluid ">
+                <div class="container">
+                        <div class="input-group w-100 mb-3">
+                                <form class="find-location w-100 position-relative">
+                                        <input type="text" class="form-control find-location1"
+                                                placeholder="Find your location..." id="search">
+                                        <input onclick=" display ()" type="button" class="position-absolute"
+                                                value="Find" id="submit">
+                                </form>
+                        </div>
+                </div>
+                <div class="forecast-table">
+                        <div class="container">
+                                <div class="forecast-container d-lg-flex justify-content-lg-between" id="forecast">
+
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <script src="js/boot.main.js"></script>
+        <script src="js/index.js"></script>
+
+</body>
+<footer class="site-footer">
+        <div class="container">
+                <div class="row ">
+                        <div class="col-md-8">
+                                <form action="#" class="subscribe-form position-relative">
+                                        <input type="text" placeholder="Enter your email to subscribe...">
+                                        <input type="submit" value="Subscribe">
+                                </form>
+                        </div>
+                        <div class="col-md-3 col-md-offset-1">
+                                <div class="social-links">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                </div>
+                        </div>
+                </div>
+
+                <p class="colophon py-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+</footer>
+
+
+</html>
